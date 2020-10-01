@@ -1,0 +1,63 @@
+@media screen and (min-width: 1200px) {
+
+.team {
+  background-color: $background-box-color;
+
+  & h2 {
+  color: $title-color;
+
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 0;
+  padding-top: 94px;
+  }
+}
+
+.team_list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 94px;
+
+  & p {
+  line-height: 1.19;
+  text-align: center;
+  }
+
+  & h3 {
+  color: $title-color;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  }
+}
+
+
+
+.team_item {
+  background: $background-color;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  width: 270px;
+  height: 428px;
+
+& p {
+margin: 0;
+}
+
+&:not(:last-child) {
+  margin-right: 30px;
+}
+
+}
+
+}

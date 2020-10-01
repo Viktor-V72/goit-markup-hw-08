@@ -1,0 +1,100 @@
+@media screen and (min-width: 1200px) {
+.footer {
+  background-color: $footer-bcg;
+
+  & .logo{
+    color: $background-color;
+  }
+}
+
+
+
+.footer_address {
+  width: 231px;
+
+  color: $background-color;
+  margin-top: 20px;
+  margin-bottom: 9px;
+  text-decoration: none;
+  font-style: normal;
+}
+
+
+
+
+.footer_list {
+  margin: 0;
+  padding: 0;
+
+  & .footer_item-link {
+   color: rgba(255, 255, 255, 0.6);
+  }
+
+}
+
+.footer_section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+
+
+.footer_item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+ .footer_item-link {
+  text-decoration-line: none;
+}
+
+
+
+.footer_flex {
+  display: flex;
+}
+
+
+.join {
+  padding-top: 72px;
+  margin-left: 70px;
+
+ & b {
+
+  display: block;
+  font-family: $roboto-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  margin: 0;
+  margin-bottom: 20px;
+
+  color: $background-color;
+
+ }
+
+}
+
+
+.no-margin {
+  margin: 0;
+
+& .social-box {
+  fill: $background-color;
+}
+
+& .social_item {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+& .social_item:hover {
+  background-color: $accent-color;
+}
+
+
+}
+
+}

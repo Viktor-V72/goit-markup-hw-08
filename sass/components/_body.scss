@@ -1,0 +1,16 @@
+@media screen and (min-width: 1200px) {
+
+body {
+  background-color: $background-color;
+  color: $primary-color;
+
+  font-family: $roboto-font;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+ul {
+  list-style: none;
+}
+}

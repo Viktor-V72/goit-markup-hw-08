@@ -1,0 +1,65 @@
+
+
+@media screen and (min-width: 1200px) {
+.activity h2 {
+  color: $title-color;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin: 0;
+}
+
+.activity_list {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-bottom: 94px;
+
+&-item {
+  position: relative;
+  width: 370px;
+
+  & p {
+  position: absolute;
+  width: 100%;
+
+  bottom: 0;
+  left: 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  margin: 0;
+
+  
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: $background-color;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+ 
+&:not(:last-child) {
+  margin-right: 30px;
+}
+}
+
+}
+
+
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+}

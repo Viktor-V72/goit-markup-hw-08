@@ -1,0 +1,49 @@
+
+@media screen and (min-width: 1200px) {
+.filter {
+  color: $title-color;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  display: flex;
+  width: 1200px;
+
+  padding-left: 279px;
+  padding-right: 280px;
+  padding-top: 98px;
+  margin-bottom: 46px;
+}
+
+
+
+.filter_box {
+  display: inline-block;
+  border-radius: 4px;
+  min-width: 73px;
+  background-color: $background-box-color;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.62;
+
+  border: 1px solid transparent;
+  padding: 6px 22px;
+  transition: $color-animation , $background-animation;
+
+  &:hover,
+  &:focus
+  {
+  color: $background-color;
+  background: $accent-color;
+  cursor: pointer;
+}
+
+&:not(:last-child) {
+  margin-right: 8px;
+}
+
+}
+
+}

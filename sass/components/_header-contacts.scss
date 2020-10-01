@@ -1,0 +1,61 @@
+@media screen and (min-width: 1200px) {
+.contact {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  height: 80px;
+
+  &_item {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  &:not(:last-child) {
+  margin-right: 50px;
+}
+
+}
+  
+}
+
+
+
+.contact_item-link {
+  color: $primary-color;
+  font-family: $roboto-font;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+}
+
+
+
+.envelope {
+  transition: $color-animation;
+
+  &:hover,
+  &:focus {
+  fill: $accent-color;
+  color: $accent-color;
+
+  }
+  
+
+&_icon {
+      transition: $fill-animation;
+      margin-right: 10px;
+      
+}
+
+}
+
+
+}
+
+
