@@ -1,7 +1,15 @@
-
+.activity{
+  display: none;
+}
 
 @media screen and (min-width: 1200px) {
-.activity h2 {
+
+.activity{
+
+  display: block;
+}
+
+  .activity h2 {
   color: $title-color;
 
   font-weight: 700;

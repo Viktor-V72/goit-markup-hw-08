@@ -1,14 +1,14 @@
-@media screen and (min-width: 1200px) {
+
 .clients {
-  padding-top: 94px;
+  padding-top: 60px;
   padding-bottom: 94px;
 
   & h2 {
   color: $title-color;
 
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+  font-size: 28px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   }
@@ -16,14 +16,20 @@
 
 
 .client_list {
+  
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  justify-content: center;
+  
 }
 
 .client_item {
+  
   display: flex;
-  width: 170px;
+  
+  width: 210px;
   height: 90px;
   align-items: center;
   justify-content: center;
@@ -33,9 +39,15 @@
 
   transition:  $border-animation;
 
-  &:not(:last-child) {
+margin-bottom: 30px;
+
+   &:nth-child(odd) {
   margin-right: 30px;
   }
+  
+  
+
+  
 
   & a {
   display: flex;
@@ -72,4 +84,28 @@
   fill: $accent-color;
 }
 
+
+@media screen and (min-width: 1200px) {
+
+.clients {
+
+ padding-top: 94px;
+
+  & h2 {
+  
+  font-size: 36px;
+  line-height: 1.17;
+
+  }
+}
+
+.client_item {
+  width: 170px;
+  height: 90px;
+
+  &:not(:last-child) {
+  margin-right: 30px;
+  }
+  
+}
 }

@@ -8,12 +8,23 @@ line-height: 1.17;
 text-decoration: none;
 letter-spacing: 0.03em;
 
+padding-left: 15px;
+
 }
 
 .accent {
   color: $accent-color;
 }
 
+
+@media screen and (max-width: 768px) {
+.logo {
+ display: block;
+  padding-top: 16px;
+  
+  
+}
+}
 
 @media screen and (min-width: 1200px) {
 .logo {

@@ -1,4 +1,4 @@
-@media screen and (min-width: 1200px) {
+
 
 .social_list {
   display: flex;
@@ -8,7 +8,7 @@
   margin-right: 32px;
   margin-left: 32px;
   margin-bottom: 30px;
-  width: 206px;
+  
   height: 44px;
 }
 
@@ -45,13 +45,20 @@
   fill: $background-color;
 }
 
-@media screen and (min-width: 1200px) {
+
 
    .social_item a {
   display: flex;
+
+
+
 }
 
 
-}
+@media screen and (min-width: 1200px) {
 
+.social_list {
+ 
+  width: 206px;
+}
 }

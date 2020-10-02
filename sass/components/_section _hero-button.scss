@@ -1,32 +1,37 @@
-@media screen and (min-width: 1200px) {
 
 .hero {
-  text-align: center;
   background-color: $bcg-hero-section;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../images/background-hero.jpg");
+    url("/images/bcg-hero-mobile.jpg");
+  
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  height: 400px;
+  width: 480px;
+  background-size: 480px 400px;
+  
 
-  height: 600px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  
+
 
 &-title {
   
   color: $background-color;
 
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 26px;
+  line-height: 1.62;
 
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 30px;
-  padding-top: 200px;
+  padding-top: 118px;
 
 }
 
@@ -52,5 +57,42 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+.hero {
+  
+  
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/background-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  height: 600px;
+  width: auto;
+  margin-left: 0;
+  margin-right: 0;
+  
+
+&-title {
+  
+  
+  font-size: 44px;
+  line-height: 1.36;
+
+  padding-top: 200px;
+
+}
+
+}
+
+
 
 }
