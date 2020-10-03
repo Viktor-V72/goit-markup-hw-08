@@ -1,6 +1,7 @@
 
 .footer {
   background-color: $footer-bcg;
+  padding-bottom: 60px;
 
   & .logo{
     color: $background-color;
@@ -11,8 +12,7 @@
 
 .foot{
   padding-top: 60px;
-  padding-right: 163px;
-  padding-left: 163px;
+  
   margin-bottom: 20px;
 
   text-align: center;
@@ -30,18 +30,16 @@ text-align: center;
   text-decoration: none;
   font-style: normal;
 
-  padding-left: 124px;
-  padding-right: 124px;
-  margin-right: 0;
+  
+  
 }
 
 
 
 
 .footer_list {
-  margin: 0;
-  padding-left: 124px;
-  padding-right: 124px;
+  
+  padding: 0;
   text-align: center;
 
   & .footer_item-link {
@@ -69,7 +67,8 @@ text-align: center;
 
 .join {
   padding-top: 72px;
-  margin-left: 70px;
+  text-align: center;
+  
 
  & b {
 

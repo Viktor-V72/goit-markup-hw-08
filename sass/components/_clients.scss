@@ -23,13 +23,15 @@
   padding: 0;
   justify-content: center;
   
+  
+  
 }
 
 .client_item {
   
   display: flex;
   
-  width: 210px;
+  width: 50%;
   height: 90px;
   align-items: center;
   justify-content: center;
@@ -41,9 +43,7 @@
 
 margin-bottom: 30px;
 
-   &:nth-child(odd) {
-  margin-right: 30px;
-  }
+  
   
   
 
@@ -85,6 +85,26 @@ margin-bottom: 30px;
 }
 
 
+
+
+@media screen and (min-width: 480px) {
+.client_item {
+
+  width: 210px;
+  
+&:nth-child(odd) {
+  margin-right: 30px;
+  }
+  
+  
+}
+}
+
+
+
+
+
+
 @media screen and (min-width: 1200px) {
 
 .clients {
@@ -103,9 +123,11 @@ margin-bottom: 30px;
   width: 170px;
   height: 90px;
 
-  &:not(:last-child) {
+ &:not(:last-child) {
   margin-right: 30px;
   }
   
+  
 }
 }
+

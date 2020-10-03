@@ -1,13 +1,10 @@
 
 
 
-@media screen and (min-width: 1200px) {
-
-
 .sign-up {
-  width: 570px;
-  height: 86px;
-  margin-left: 93px;
+  
+  
+  text-align:center ;
   padding-top: 72px;
 
   & b {
@@ -29,7 +26,7 @@
 
 
 .form {
-  display: flex;
+  display: block;
 
  & input {
   font-family: $roboto-font;
@@ -42,7 +39,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
 
-  width: 358px;
+  width: 100%;
   height: 50px;
   background: $footer-bcg;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -76,9 +73,19 @@
   margin: 0;
   padding: 0;
   cursor: pointer;
+  
 }
 
 }
+
+.button-flex{
+
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+
 
 
 
@@ -89,4 +96,44 @@
   padding-bottom: 10px;
 }
 
+
+
+@media screen and (min-width: 480px) {
+
+
+  .form {
+  
+
+  & input {
+ 
+
+  width: 358px;
+  }
+}
+
+}
+
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+
+  .sign-up {
+  width: 570px;
+  height: 86px;
+  margin-left: 93px;
+  padding-top: 72px;
+  }
+
+  .form {
+  display: flex;
+
+  & input {
+ 
+
+  width: 358px;
+  }
+}
 }
