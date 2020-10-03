@@ -1,5 +1,5 @@
 
-@media screen and (min-width: 1200px) {
+
 .filter {
   color: $title-color;
 
@@ -8,10 +8,9 @@
   line-height: 1.62;
   text-align: center;
   display: flex;
-  width: 1200px;
+  width: 100%;
 
-  padding-left: 279px;
-  padding-right: 280px;
+  
   padding-top: 98px;
   margin-bottom: 46px;
 }
@@ -46,4 +45,14 @@
 
 }
 
+
+@media screen and (min-width: 1200px) {
+
+  .filter {
+ 
+  width: 1200px;
+
+  padding-left: 279px;
+  padding-right: 280px;
+}
 }

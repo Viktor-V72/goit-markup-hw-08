@@ -840,13 +840,13 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: -15px;
 }
 
 .client_item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 50%;
   height: 90px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -858,7 +858,8 @@ img {
   border-radius: 4px;
   -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-bottom: 30px;
+  width: calc((100% - 4 * 15px) / 2);
+  margin: 15px;
 }
 
 .client_item a {
@@ -892,15 +893,6 @@ img {
 
 .client_link:focus .client_link-logo {
   fill: #2196f3;
-}
-
-@media screen and (min-width: 480px) {
-  .client_item {
-    width: 210px;
-  }
-  .client_item:nth-child(odd) {
-    margin-right: 30px;
-  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1126,42 +1118,49 @@ img {
   }
 }
 
+.filter {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding-top: 98px;
+  margin-bottom: 46px;
+}
+
+.filter_box {
+  display: inline-block;
+  border-radius: 4px;
+  min-width: 73px;
+  background-color: #f5f4fa;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.62;
+  border: 1px solid transparent;
+  padding: 6px 22px;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.filter_box:hover, .filter_box:focus {
+  color: #ffffff;
+  background: #2196f3;
+  cursor: pointer;
+}
+
+.filter_box:not(:last-child) {
+  margin-right: 8px;
+}
+
 @media screen and (min-width: 1200px) {
   .filter {
-    color: #212121;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     width: 1200px;
     padding-left: 279px;
     padding-right: 280px;
-    padding-top: 98px;
-    margin-bottom: 46px;
-  }
-  .filter_box {
-    display: inline-block;
-    border-radius: 4px;
-    min-width: 73px;
-    background-color: #f5f4fa;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.62;
-    border: 1px solid transparent;
-    padding: 6px 22px;
-    -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .filter_box:hover, .filter_box:focus {
-    color: #ffffff;
-    background: #2196f3;
-    cursor: pointer;
-  }
-  .filter_box:not(:last-child) {
-    margin-right: 8px;
   }
 }
 
