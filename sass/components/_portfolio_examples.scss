@@ -1,4 +1,4 @@
- @media screen and (min-width: 1200px) {
+ 
 
  .examples {
   padding-bottom: 94px;
@@ -31,9 +31,10 @@
 
 
 .project_item {
-  width: 370px;
-  height: 404px;
-  margin-right: 30px;
+  
+  width: 100%;
+  height: 100%;
+  
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -62,7 +63,9 @@
 .project_thumb {
   position: relative;
   overflow: hidden;
+  height: 294px;
 }
+
 
 
 .project_text p {
@@ -77,7 +80,7 @@
   line-height: 1.56;
   letter-spacing: 0.03em;
   margin: 0;
-  padding: 63px 24px;
+  padding: 77px 24px;
 
   color: $background-color;
   background-color: rgba(33, 150, 243, 0.9);
@@ -97,4 +100,19 @@
   letter-spacing: 0.06em;
 }
 
+
+@media screen and (min-width: 1200px) {
+
+.project_item {
+  width: 370px;
+  height: 404px;
+  
+  height: 404px;
+  margin-right: 30px;
  }
+
+ .project_text p {
+  
+  padding: 63px 24px;
+}
+}

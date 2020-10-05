@@ -2,6 +2,7 @@
 
 .team {
   background-color: $background-box-color;
+ 
 
   & h2 {
   color: $title-color;
@@ -58,6 +59,7 @@
   width: 100%;
   
   
+  
   &:not(:last-child) {
   margin-bottom: 60px;
 }
@@ -71,6 +73,15 @@ margin: 0;
 
 }
 
+
+@media screen and (max-width: 767px) {
+
+.team {
+  
+  padding-bottom: 60px;
+
+}
+}
 
 
 
