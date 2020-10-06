@@ -105,13 +105,19 @@ margin: 15px;
 // }
 
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
 
-
+.client_item{
+width: calc((100% - 6 * 15px) / 3);
+}
+}
 
 
 @media screen and (min-width: 1200px) {
 
 .clients {
+  
+
 
  padding-top: 94px;
 
@@ -132,6 +138,11 @@ margin: 15px;
   }
   
   
+}
+
+.client_list{
+
+  flex-wrap: nowrap;
 }
 }
 

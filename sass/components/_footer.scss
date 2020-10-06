@@ -109,9 +109,47 @@ text-align: center;
 
 }
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+.flex_tablet_footer{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+
+}
+
+.join{
+  padding: 0;
+}
+
+.foot{
+  padding: 0;
+
+
+}
+
+.footer_section{
+  padding-top: 60px;
+  text-align: center;
+}
+
+.join{
+padding-top: 65px;
+
+}
+
+.footer_address{
+  margin-top: 20px;
+}
+
+}
+
 
 @media screen and (min-width: 1200px) {
 .footer_flex {
+  display: flex;
+}
+// !!!
+.flex_tablet_footer{
   display: flex;
 }
 
@@ -130,3 +168,5 @@ text-align: center;
   padding: 0;
 }
 }
+
+

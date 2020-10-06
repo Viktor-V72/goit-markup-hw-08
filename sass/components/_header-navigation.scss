@@ -99,7 +99,30 @@ position: relative;
 }
 
 
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+.nav {
+  display: flex;
+margin-left: 93px;
+
+  &_item {
+ position: relative;
   
+    &:not(:last-child){
+  margin-right: 50px;
+}
+  }
+
+
+  
+  }
+}
+
+
+  
+
+
+
+
 
 
 @media screen and (min-width: 1200px) {

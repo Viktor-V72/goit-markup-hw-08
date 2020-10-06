@@ -76,6 +76,7 @@ width: 100%;
 
 text-align: center ;
 padding-top: 60px;
+z-index: 1;
 
 
 
@@ -88,10 +89,41 @@ padding-top: 60px;
 }
 
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+.header_nav {
+  display: flex;
+ align-items: center;
+
+  }
+
+.header {
+  height: 80px;
+  
+  
+}
+
+.header_all{
+
+  display: flex;
+}
+
+.menu-container{
+  display: flex;
+}
+
+}
+
+  
+
+
+
+
+
 @media screen and (min-width: 1200px) {
 
   .header_nav {
   display: flex;
+  align-items: center;
 
   }
 

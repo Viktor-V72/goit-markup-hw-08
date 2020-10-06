@@ -85,6 +85,27 @@ margin: 0;
 
 
 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+.team_list {
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.team_item{
+margin: 15px;
+  width:  calc((100% - 4 * 15px) / 2);
+
+}
+
+
+
+}
+
+
+
+
+
 @media screen and (min-width: 1200px) {
 
 

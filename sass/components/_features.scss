@@ -30,10 +30,7 @@
   }
 }
 
-.features_title{
-  
 
-}
 
 .bcg {
   display: flex;
@@ -62,6 +59,28 @@
 }
 
 
+@media screen and (min-width: 768px) {
+.features{
+
+display: flex;
+flex-wrap: wrap;
+
+
+}
+
+
+.features_item{
+  margin: 15px;
+  width:  calc((100% - 4 * 15px) / 2);
+}
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 1200px) {
 
@@ -80,6 +99,7 @@
 
 .features_item {
   width: 270px;
+  margin: 0;
 
   &:not(:last-child) {
   margin-right: 30px;
@@ -96,4 +116,5 @@
   padding: 25px 100px;
 }
 
+}
 }
