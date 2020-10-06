@@ -1133,7 +1133,6 @@ img {
 }
 
 .footer_address {
-  text-align: center;
   color: #ffffff;
   margin-bottom: 9px;
   text-decoration: none;
@@ -1142,7 +1141,6 @@ img {
 
 .footer_list {
   padding: 0;
-  text-align: center;
 }
 
 .footer_list .footer_item-link {
@@ -1191,6 +1189,15 @@ img {
 
 .no-margin .social_item:hover {
   background-color: #2196f3;
+}
+
+@media screen and (max-width: 767px) {
+  .footer_address {
+    text-align: center;
+  }
+  .footer_list {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -1244,6 +1251,9 @@ img {
   .footer_list {
     margin: 0;
     padding: 0;
+  }
+  .join {
+    margin-left: 70px;
   }
 }
 
@@ -1347,6 +1357,9 @@ img {
     margin-left: 93px;
     padding-top: 72px;
   }
+  .sign-up b {
+    text-align: left;
+  }
   .form {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1354,6 +1367,9 @@ img {
   }
   .form input {
     width: 358px;
+  }
+  .button-flex {
+    margin-top: 0;
   }
 }
 

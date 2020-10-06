@@ -125,15 +125,27 @@
   height: 86px;
   margin-left: 93px;
   padding-top: 72px;
+
+  & b {
+    text-align:left ;
   }
+}
 
   .form {
   display: flex;
+  
+  
 
   & input {
  
 
   width: 358px;
   }
+}
+
+.button-flex{
+
+  
+  margin-top: 0;
 }
 }
