@@ -5,11 +5,13 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../images/bcg-hero-mobile.jpg");
+    url("../images/bcg-mob.jpg");
   
 background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center; 
+
+
   
 
   height: 400px;
@@ -64,6 +66,24 @@ background-repeat: no-repeat;
   cursor: pointer;
 }
 
+
+@media screen and (min-device-pixel-ratio: 2), 
+screen and (-webkit-min-device-pixel-ratio: 2), 
+screen and (min-resolution: 192dpi), 
+screen and (min-resolution: 2dppx) {
+  .hero {
+    
+    background-image:linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ), url("../images/bcg-mob@2x.jpg");
+
+  }
+}
+
+
+
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
 .hero {
   
@@ -72,7 +92,7 @@ background-repeat: no-repeat;
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url("../images/tablet-bcg.jpg");
+    url("../images/bacg-tab.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -80,6 +100,31 @@ background-repeat: no-repeat;
 
 }
 }
+
+@media screen and (min-width: 768px)
+ and (min-device-pixel-ratio: 2),
+  screen and (min-width: 768px) 
+  and (-webkit-min-device-pixel-ratio: 2),
+   screen and (min-width: 768px) 
+   and (min-resolution: 192dpi), 
+   screen and (min-width: 768px)
+    and (min-resolution: 2dppx) {
+
+.hero {
+  
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/bcg-tab@2x.jpg");
+
+
+}
+    }
+
+
+
+
 
 
 
@@ -119,3 +164,26 @@ background-repeat: no-repeat;
 
 
 }
+  
+
+@media screen and (min-width: 1200px)
+ and (min-device-pixel-ratio: 2),
+  screen and (min-width: 1200px)
+   and (-webkit-min-device-pixel-ratio: 2),
+    screen and (min-width: 1200px)
+     and (min-resolution: 192dpi),
+      screen and (min-width: 1200px) 
+      and (min-resolution: 2dppx) {
+
+        .hero {
+  
+  
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../images/background-hero@2x.jpg");
+
+        }
+
+      }
