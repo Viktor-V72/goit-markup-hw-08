@@ -9,9 +9,6 @@
   }
 }
  
- 
-
-
 
 .project_list {
   display: flex;
@@ -27,7 +24,6 @@
   }
 
 }
-
 
 
 .project_item {
@@ -59,13 +55,11 @@
 }
 
 
-
 .project_thumb {
   position: relative;
   overflow: hidden;
   height: 294px;
 }
-
 
 
 .project_text p {
@@ -91,7 +85,6 @@
 }
 
 
-
 .project_title {
   color: $title-color;
   font-size: 18px;
@@ -104,15 +97,12 @@
 @media screen and (min-width: 768px) and (max-width: 1199px) {
 
 
-
 .project_item{
 margin: 15px;
 width:  calc((100% - 4 * 15px) / 2);
 
 }
 }
-
-
 
 
 

@@ -1,13 +1,4 @@
 
-// .contact{
-//   display: none;
-// }
-
-
-
-
-
-
 
 .contact_item-link {
   color: $primary-color;
@@ -17,11 +8,8 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-
-  // display: flex;
   align-items: center;
 }
-
 
 
 .envelope {
@@ -80,7 +68,6 @@ align-items: center;
   &_item {
   display: flex;
   align-items: center;
-  // position: relative;
 
   &:not(:last-child) {
   margin-right: 50px;

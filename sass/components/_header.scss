@@ -1,15 +1,7 @@
 
-  
-  
  .menu-button{
    display: none;
  } 
-
-
- 
-  
-
-  
 
 
 @media screen and (max-width: 767px) {
@@ -53,6 +45,7 @@ padding-top: 16px;
   
 }
 
+
 .header{
 
   border-bottom: 1px solid #ececec;
@@ -79,12 +72,10 @@ padding-top: 60px;
 z-index: 1;
 
 
-
   &.is-open{
     display: block;
   }
 }
-
 
 }
 
@@ -113,11 +104,6 @@ z-index: 1;
 
 }
 
-  
-
-
-
-
 
 @media screen and (min-width: 1200px) {
 
@@ -129,7 +115,6 @@ z-index: 1;
 
 .header {
   height: 80px;
-  
   
 }
 

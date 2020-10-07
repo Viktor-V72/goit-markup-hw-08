@@ -1,6 +1,4 @@
 
-
-
 .backdrop {
   position: fixed;
   top: 0;
@@ -27,7 +25,6 @@
 
     }
   }
-
 
 
 .modal {
@@ -180,7 +177,6 @@ padding-bottom: 96px;
 }
 
 
-
 .agreement-confirm{
 
   
@@ -188,13 +184,7 @@ font-size: 12px;
 line-height: 1.17;
 letter-spacing: normal;
 
-
-
-
-
-
 }
-
 
 
 .agreement {
@@ -225,14 +215,6 @@ letter-spacing: normal;
 
 
 }
-
-
-
-
-
-
-
-
 
 
 .agreement_label {
@@ -269,7 +251,6 @@ letter-spacing: normal;
 }
 
 
-
 .form-field_icon {
   position: relative;
 
@@ -277,9 +258,6 @@ letter-spacing: normal;
 padding-left: 42px;
 
 }
-
-
-
 }
 
 .icon-input {
@@ -294,7 +272,6 @@ padding-left: 42px;
 .input:focus + .icon-input {
   fill: $accent-color;
 }
-
 
 
 .agreement_label-checkbox:checked + .icon-box {
@@ -319,7 +296,6 @@ padding-left: 42px;
 }
 
 
-
 @media screen and (min-width: 1200px) {
 
   .modal {
@@ -337,8 +313,4 @@ padding-left: 42px;
   font-size: 12px;
   line-height: 1.17;
 }
-
-
-
-
 }

@@ -23,9 +23,7 @@
   padding: 0;
   justify-content: center;
   margin: -15px;
-  
-  
-  
+
 }
 
 .client_item {
@@ -42,13 +40,9 @@
 
   transition:  $border-animation;
 
-// margin-bottom: 30px;
+
 width: calc((100% - 4 * 15px) / 2);
 margin: 15px;
-
-  
-  
-  
 
   
 
@@ -64,10 +58,7 @@ margin: 15px;
   &:focus {
   border: 1px solid $accent-color;
 }
-
 }
-
-
 
 
 
@@ -75,7 +66,6 @@ margin: 15px;
   fill: $client-fill;
   transition: $fill-animation;
 }
-
 
 
 
@@ -88,21 +78,6 @@ margin: 15px;
   fill: $accent-color;
 }
 
-
-
-
-// @media screen and (min-width: 480px) {
-// .client_item {
-
-//   width: 210px;
-  
-// &:nth-child(odd) {
-//   margin-right: 30px;
-//   }
-  
-  
-// }
-// }
 
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {

@@ -243,7 +243,7 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -252,21 +252,9 @@ img {
   }
   .nav_item {
     position: relative;
-  }
-  .nav_item:not(:last-child) {
-    margin-right: 50px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: 93px;
-  }
-  .nav_item {
-    position: relative;
   }
   .nav_item:not(:last-child) {
     margin-right: 50px;

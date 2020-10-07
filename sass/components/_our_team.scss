@@ -23,9 +23,6 @@
   padding-left: 15px;
   margin-bottom: 0;
   
-  
-  
-  
 
   & p {
   line-height: 1.19;
@@ -46,7 +43,6 @@
 }
 
 
-
 .team_item {
   background: $background-color;
 
@@ -55,10 +51,7 @@
   border-radius: 0px 0px 4px 4px;
   
   height: 100%;
- 
   width: 100%;
-  
-  
   
   &:not(:last-child) {
   margin-bottom: 60px;
@@ -79,10 +72,8 @@ margin: 0;
 .team {
   
   padding-bottom: 60px;
-
 }
 }
-
 
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -97,13 +88,7 @@ margin: 15px;
   width:  calc((100% - 4 * 15px) / 2);
 
 }
-
-
-
 }
-
-
-
 
 
 @media screen and (min-width: 1200px) {

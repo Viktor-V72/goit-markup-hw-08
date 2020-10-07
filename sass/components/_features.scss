@@ -1,14 +1,11 @@
 
 
-
 .features {
   display: block;
 
   margin: 0;
   padding-top: 94px;
   padding-bottom: 94px;
-  // padding-left: 15px;
-  // padding-right: 15px;
   padding-left: 0;
 
   &_title {
@@ -31,7 +28,6 @@
 }
 
 
-
 .bcg {
   display: flex;
   width: 100%;
@@ -45,17 +41,12 @@
 }
 
 
-
 .features_item {
-  // width: 450px;
-
-  
+ 
 
 & p {
     margin-bottom: 30px;
-
 }
-
 }
 
 
@@ -64,21 +55,12 @@
 
 display: flex;
 flex-wrap: wrap;
-
-
 }
-
 
 .features_item{
   margin: 15px;
   width:  calc((100% - 4 * 15px) / 2);
 }
-
-
-
-
-
-
 
 
 

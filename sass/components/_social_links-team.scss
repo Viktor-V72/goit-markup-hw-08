@@ -1,5 +1,4 @@
 
-
 .social_list {
   display: flex;
   justify-content: center;
@@ -7,7 +6,6 @@
   margin-top: 16px;
   margin-right: 32px;
   margin-left: 32px;
-  
   
   height: 44px;
 }
@@ -27,9 +25,6 @@
 }
 
 
-
-
-
 .social_item:hover {
   background-color: $accent-color;
 }
@@ -46,13 +41,9 @@
 }
 
 
-
-   .social_item a {
+  .social_item a {
   display: flex;
-
-
-
-}
+  }
 
 
 @media screen and (min-width: 1200px) {
