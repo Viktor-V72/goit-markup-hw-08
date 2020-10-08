@@ -55,11 +55,17 @@
 
 display: flex;
 flex-wrap: wrap;
+margin: -15px;
 }
 
 .features_item{
   margin: 15px;
   width:  calc((100% - 4 * 15px) / 2);
+}
+
+.bcg {
+padding: 25px 144px;
+
 }
 
 
