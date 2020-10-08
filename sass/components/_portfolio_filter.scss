@@ -20,6 +20,7 @@
 
 
 .filter_box {
+  
   display: inline-block;
   border-radius: 4px;
   min-width: 73px;
@@ -29,8 +30,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.62;
-
-  border: 1px solid transparent;
+  // border: 1px solid transparent;
   padding: 6px 22px;
   transition: $color-animation , $background-animation;
 
@@ -48,6 +48,27 @@
 
 }
 
+
+@media screen and (max-width: 767px) {
+
+  .filter_box:nth-child(n + 4) {
+  margin-bottom: 0;
+  }
+
+  .filter {
+  margin-bottom: 42px;
+  }
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+
+.filter {
+  margin-bottom: 30px;
+  }
+}
 
 @media screen and (min-width: 1200px) {
 

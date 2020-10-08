@@ -19,9 +19,9 @@
 .team_list {
   display: block;
   padding:0;
-  padding-right: 15px;
-  padding-left: 15px;
+  
   margin-bottom: 0;
+  
   
 
   & p {
@@ -52,10 +52,9 @@
   
   height: 100%;
   width: 100%;
+  padding-bottom: 24px;
   
-  &:not(:last-child) {
-  margin-bottom: 60px;
-}
+  
   
 
 & p {
@@ -70,8 +69,19 @@ margin: 0;
 @media screen and (max-width: 767px) {
 
 .team {
-  
   padding-bottom: 60px;
+}
+
+.team_item {
+
+  &:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+& p {
+font-size: 16px;
+}
+
 }
 }
 
@@ -87,6 +97,10 @@ margin: -15px;
 .team_item{
 margin: 15px;
   width:  calc((100% - 4 * 15px) / 2);
+}
+
+.project_type{
+
 
 }
 }
